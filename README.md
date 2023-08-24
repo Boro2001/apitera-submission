@@ -1,6 +1,6 @@
 # Project Submission - Github Repository Fetching Api
 
-This is the project submission for the Atipera preliminary recruitment process. The project demonstrates my skills and abilities in [relevant skills/technologies].
+This is the project submission for the Atipera preliminary recruitment process.
 
 ## Project Overview
 
