@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi.mappings;
+package com.atipera.githubrepotioryfetchingapi.mappings;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

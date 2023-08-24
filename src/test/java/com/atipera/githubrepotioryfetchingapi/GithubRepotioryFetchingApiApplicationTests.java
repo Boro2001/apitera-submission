@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi;
+package com.atipera.githubrepotioryfetchingapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

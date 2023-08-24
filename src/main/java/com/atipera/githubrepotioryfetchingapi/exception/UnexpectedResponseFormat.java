@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi.exception;
+package com.atipera.githubrepotioryfetchingapi.exception;
 
 public class UnexpectedResponseFormat extends RuntimeException {
     public UnexpectedResponseFormat(String format) {

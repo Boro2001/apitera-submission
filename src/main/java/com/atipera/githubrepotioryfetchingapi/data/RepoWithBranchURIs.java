@@ -1,6 +1,6 @@
-package com.apitera.githubrepotioryfetchingapi.data;
+package com.atipera.githubrepotioryfetchingapi.data;
 
-import com.apitera.githubrepotioryfetchingapi.mappings.Repository;
+import com.atipera.githubrepotioryfetchingapi.mappings.Repository;
 import lombok.Getter;
 import lombok.Setter;
 

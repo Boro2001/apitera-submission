@@ -1,8 +1,8 @@
-package com.apitera.githubrepotioryfetchingapi;
+package com.atipera.githubrepotioryfetchingapi;
 
-import com.apitera.githubrepotioryfetchingapi.data.Repo;
-import com.apitera.githubrepotioryfetchingapi.exception.BadUserException;
-import com.apitera.githubrepotioryfetchingapi.exception.UnexpectedResponseFormat;
+import com.atipera.githubrepotioryfetchingapi.data.Repo;
+import com.atipera.githubrepotioryfetchingapi.exception.BadUserException;
+import com.atipera.githubrepotioryfetchingapi.exception.UnexpectedResponseFormat;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
@@ -27,8 +27,8 @@ public class RepostioryController {
     @ExceptionHandler({URISyntaxException.class, IOException.class, InterruptedException.class, BadUserException.class, UnexpectedResponseFormat.class})
     public HttpEntity<ErrorResponse> handleException(Exception e) {
         return ResponseEntity
-                .status(HttpServletResponse.SC_INTERNAL_SERVER_ERROR)
-                .body(new ErrorResponse(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, e.getMessage()));
+                .status(HttpServletResponse.SC_NOT_FOUND)
+                .body(new ErrorResponse(HttpServletResponse.SC_NOT_FOUND, e.getMessage()));
     }
 
     @GetMapping("{username}/repositories")

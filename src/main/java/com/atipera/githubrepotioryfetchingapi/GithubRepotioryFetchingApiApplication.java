@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi;
+package com.atipera.githubrepotioryfetchingapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

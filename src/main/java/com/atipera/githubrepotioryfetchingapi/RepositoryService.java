@@ -1,10 +1,10 @@
-package com.apitera.githubrepotioryfetchingapi;
+package com.atipera.githubrepotioryfetchingapi;
 
-import com.apitera.githubrepotioryfetchingapi.data.Repo;
-import com.apitera.githubrepotioryfetchingapi.data.RepoWithBranchURIs;
-import com.apitera.githubrepotioryfetchingapi.exception.BadUserException;
-import com.apitera.githubrepotioryfetchingapi.exception.UnexpectedResponseFormat;
-import com.apitera.githubrepotioryfetchingapi.mappings.Repository;
+import com.atipera.githubrepotioryfetchingapi.data.Repo;
+import com.atipera.githubrepotioryfetchingapi.data.RepoWithBranchURIs;
+import com.atipera.githubrepotioryfetchingapi.exception.BadUserException;
+import com.atipera.githubrepotioryfetchingapi.exception.UnexpectedResponseFormat;
+import com.atipera.githubrepotioryfetchingapi.mappings.Repository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

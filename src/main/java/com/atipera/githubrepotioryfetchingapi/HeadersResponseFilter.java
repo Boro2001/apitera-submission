@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi;
+package com.atipera.githubrepotioryfetchingapi;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;

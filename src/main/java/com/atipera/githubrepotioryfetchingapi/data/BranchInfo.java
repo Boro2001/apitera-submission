@@ -1,4 +1,4 @@
-package com.apitera.githubrepotioryfetchingapi.data;
+package com.atipera.githubrepotioryfetchingapi.data;
 
 import lombok.Builder;
 import lombok.Data;
